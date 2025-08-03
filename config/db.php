@@ -1,6 +1,6 @@
 <?php 
 $host = 'sql109.infinityfree.com'; 
-$user = 'rootif0_39623030'; 
+$user = 'if0_39623030'; 
 $pass = 'i6HmOUckQwZV'; 
 $db_name = 'if0_39623030_db_pinjambuku'; 
 $conn = new mysqli($host, $user, $pass, $db_name); 
