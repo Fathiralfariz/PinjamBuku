@@ -5,6 +5,9 @@ header("Location: pages/login.php");
 exit; 
 } 
 ?>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 <h2>Selamat Datang, <?= htmlspecialchars($_SESSION['petugas']['nama']) 
 ?></h2>
 <ul>
