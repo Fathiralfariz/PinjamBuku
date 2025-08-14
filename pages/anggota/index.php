@@ -33,8 +33,8 @@ $result = $conn->query("SELECT * FROM anggota");
                     <tr> 
                         <td><?= htmlspecialchars($row['id_anggota']) ?></td> 
                         <td><?= htmlspecialchars($row['nama']) ?></td> 
-                        <td><?= htmlspecialchars($row['Alamat']) ?></td>
-                        <td><?= htmlspecialchars($row['No HP']) ?></td>
+                        <td><?= htmlspecialchars($row['alamat']) ?></td>
+                        <td><?= htmlspecialchars($row['no_hp']) ?></td>
                         <td>
                             <a href="edit.php?id=<?= htmlspecialchars($row['id_anggota']) ?>" class="btn btn-warning btn-sm">Edit</a>
                             <a href="hapus.php?id=<?= htmlspecialchars($row['id_anggota']) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Hapus?')">Hapus</a>
