@@ -60,6 +60,9 @@ $result = $conn->query("SELECT * FROM buku");
                     <tr class="align-middle">
                         <td class="fw-semibold"><?= htmlspecialchars($row['id_buku']) ?></td>
                         <td><?= htmlspecialchars($row['judul']) ?></td>
+                        <td><?= htmlspecialchars($row['pengarang']) ?></td>
+                        <td><?= htmlspecialchars($row['penerbit']) ?></td>
+                        <td><?= htmlspecialchars($row['tahun_terbit']) ?></td>
                         <td><?= htmlspecialchars($row['stok']) ?></td>
                         <td class="action-buttons text-center">
                             <a href="edit.php?id=<?= htmlspecialchars($row['id_buku']) ?>" 
