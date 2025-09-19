@@ -51,8 +51,10 @@ $result = $conn->query("SELECT * FROM buku");
                     <tr>
                         <th>ID</th>
                         <th>Judul</th>
+                        <th>Pengarang</th>
+                        <th>Penerbit</th>
+                        <th>Tahun Terbit</th>
                         <th>Stok</th>
-                        <th class="text-center">Aksi</th>
                     </tr>
                 </thead>
                 <tbody class="table-group-divider">
